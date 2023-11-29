@@ -1,0 +1,6 @@
+version: "3"
+services:
+  alpine:
+    image: docker.io/timoteoramos/alpine:3.18
+    build:
+      context: .
